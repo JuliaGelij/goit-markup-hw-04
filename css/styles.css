@@ -297,7 +297,6 @@ ul {
 .team-list-icon:hover .team-icon {
     fill: var(--brand-color-white);
     background-color: var(--brand-color-blue);
-    border-radius: 50%;
 }
 .team-list-icon {
     width: 44px;
@@ -306,12 +305,31 @@ ul {
     align-items: center;
     justify-content: space-evenly;
     gap: 10px;
+    border-radius: 50%;
 }
 .team-list-icon:hover {
     background-color: var(--brand-color-blue);
-    border-radius: 50%;
+}
+.clients-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 50px;
 }
 .clients-item {
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--brand-color-gray3);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 4px;
+}
+.clients-item:hover {
+    border-color: var(--brand-color-blue);
+}
+.clients-icon:hover {
+    fill: rgba(33, 150, 243, 1);
 }
 .project-list {
     display: flex;
