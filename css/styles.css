@@ -96,6 +96,9 @@ ul {
 .contact-icon {
     margin-right: 10px;
 }
+.contact-icon:hover {
+    fill: var(--brand-color-blue);
+}
 .contact-link {
     color: var(--brand-color-gray2);
     font-style: normal;
@@ -328,8 +331,11 @@ ul {
 .clients-item:hover {
     border-color: var(--brand-color-blue);
 }
+.clients-icon {
+    fill: var(--brand-color-gray3);
+}
 .clients-icon:hover {
-    fill: rgba(33, 150, 243, 1);
+    fill: var(--brand-color-blue);
 }
 .project-list {
     display: flex;
