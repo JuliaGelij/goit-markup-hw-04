@@ -92,7 +92,9 @@ ul {
     display: flex;
     gap: 50px;
 }
-
+.contact-icon {
+    margin-right: 10px;
+}
 .contact-link {
     color: var(--brand-color-gray2);
     font-style: normal;
@@ -101,12 +103,22 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 .contact-link:hover {
     color: var(--brand-color-blue);
 }
 .main-section {
     background-color: var(--brand-color-dark);
+    background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/background-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -177,6 +189,15 @@ ul {
     background-color: var(--brand-color-blue);
     color: var(--brand-color-white);
 }
+.description-icon {
+    width: 270px;
+    height: 120px;
+    background-color: var(--brand-color-gray);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+}
 .description-list {
     display: flex;
     gap: 30px;
@@ -189,6 +210,7 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 10px;
+    margin-top: 30px;
 }
 .description-text {
     font-style: normal;
@@ -261,9 +283,20 @@ ul {
     letter-spacing: 0.03em;
 
     color: var(--brand-color-gray2);
-    padding-bottom: 30px;
+    padding-bottom: 16px;
 }
+.team-contact {
+    padding-bottom: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.team-icon:hover {
+    fill: var(--brand-color-white);
+    background-color: var(--brand-color-blue);
 
+    border-radius: 50%;
+}
 .project-list {
     display: flex;
     flex-wrap: wrap;
