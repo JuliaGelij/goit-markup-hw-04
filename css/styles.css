@@ -288,13 +288,12 @@ ul {
 .team-contact {
     padding-bottom: 30px;
     display: flex;
-    gap: 10px;
-    justify-content: center;
+    justify-content: space-evenly;
+    
 }
 .team-icon:hover {
     fill: var(--brand-color-white);
     background-color: var(--brand-color-blue);
-
     border-radius: 50%;
 }
 .project-list {
@@ -363,4 +362,7 @@ ul {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+}
+.footer-flex {
+    display: flex;
 }
