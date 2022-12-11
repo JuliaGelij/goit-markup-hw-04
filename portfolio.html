@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>homework3</title>
+        <title>homework4</title>
         <!-- normalizator -->
         <link
             rel="stylesheet"
@@ -50,11 +50,18 @@
                     </ul>
                 </nav>
                 <div class="contact">
-                    <a class="contact-link" href="mailto:info@devstudio.com"
-                        >info@devstudio.com</a
+                    <a class="contact-link" href="mailto:info@devstudio.com">
+                        <svg class="contact-icon" width="16" height="12">
+                            <use href="images/icons.svg#icon-mail"></use>
+                        </svg>
+                        info@devstudio.com</a
                     >
                     <a class="contact-link" href="tel:+48111111111">
-                        +48 111 111 111
+                        <svg class="contact-icon" width="10" height="16">
+                            <use
+                                href="images/icons.svg#icon-smartphone1"
+                            ></use></svg
+                        >+48 111 111 111
                     </a>
                 </div>
             </section>
@@ -217,11 +224,11 @@
             </section>
         </main>
         <footer class="bottom">
-            <section class="container">
-                <a class="logo" href="index.html">
-                    Web<span class="logo-part2">Studio</span></a
-                >
+            <section class="container footer-flex">
                 <div class="our-address">
+                    <a class="logo" href="index.html">
+                        Web<span class="logo-part2">Studio</span></a
+                    >
                     <address class="our-address">
                         <ul class="our-address-list list">
                             <li class="our-address-item our-address-item-city">
@@ -243,6 +250,55 @@
                             </li>
                         </ul>
                     </address>
+                </div>
+                <div class="join-main">
+                    <p class="address-join">Dołącz do nas</p>
+                    <ul class="address-contact list">
+                        <li class="address-join-item">
+                            <svg
+                                class="address-icon icon-instagram"
+                                width="20"
+                                height="20"
+                            >
+                                <use
+                                    xlink:href="images/icons.svg#icon-instagram"
+                                ></use>
+                            </svg>
+                        </li>
+                        <li class="address-join-item">
+                            <svg
+                                class="address-icon icon-twitter"
+                                width="20"
+                                height="20"
+                            >
+                                <use
+                                    xlink:href="images/icons.svg#icon-twitter"
+                                ></use>
+                            </svg>
+                        </li>
+                        <li class="address-join-item">
+                            <svg
+                                class="address-icon icon-facebook"
+                                width="20"
+                                height="20"
+                            >
+                                <use
+                                    xlink:href="images/icons.svg#icon-facebook"
+                                ></use>
+                            </svg>
+                        </li>
+                        <li class="address-join-item">
+                            <svg
+                                class="address-icon icon-linkedin"
+                                width="20"
+                                height="20"
+                            >
+                                <use
+                                    xlink:href="images/icons.svg#icon-linkedin"
+                                ></use>
+                            </svg>
+                        </li>
+                    </ul>
                 </div>
             </section>
         </footer>
