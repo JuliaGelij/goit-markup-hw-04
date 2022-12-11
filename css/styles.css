@@ -8,6 +8,7 @@
     --brand-color-blue: rgba(33, 150, 243, 1);
     --brand-color-gray3: rgba(175, 177, 184, 1);
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--brand-color-black2);
@@ -95,10 +96,9 @@ ul {
 }
 .contact-icon {
     margin-right: 10px;
+    fill: var(--brand-color-gray3);
 }
-.contact-icon:hover {
-    fill: var(--brand-color-blue);
-}
+
 .contact-link {
     color: var(--brand-color-gray2);
     font-style: normal;
@@ -109,6 +109,12 @@ ul {
     text-decoration: none;
     display: flex;
     align-items: center;
+}
+.contact-link:hover .contact-icon {
+    fill: var(--brand-color-blue);
+}
+.contact-link:focus .contact-icon {
+    fill: var(--brand-color-blue);
 }
 .contact-link:hover {
     color: var(--brand-color-blue);
@@ -334,7 +340,11 @@ ul {
 .clients-icon {
     fill: var(--brand-color-gray3);
 }
-.clients-icon:hover {
+
+.clients-item:hover .clients-icon {
+    fill: var(--brand-color-blue);
+}
+.clients-item:focus .clients-icon {
     fill: var(--brand-color-blue);
 }
 .project-list {
@@ -406,6 +416,10 @@ ul {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
+.join-main {
+    width: 206px;
+    height: 80px;
+}
 .address-join {
     font-weight: 700;
     font-size: 14px;
@@ -419,6 +433,21 @@ ul {
 .address-contact {
     display: flex;
     gap: 34px;
+}
+.address-icon {
+    fill: var(--brand-color-white);
+    display: flex;
+    align-items: center;
+}
+.address-join-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: space-between;
+    gap: 10px;
 }
 .footer-flex {
     display: flex;
